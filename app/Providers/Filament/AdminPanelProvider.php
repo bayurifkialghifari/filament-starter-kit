@@ -20,6 +20,7 @@ use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use Rmsramos\Activitylog\ActivitylogPlugin;
 use Saade\FilamentLaravelLog\FilamentLaravelLogPlugin;
+use TomatoPHP\FilamentMediaManager\FilamentMediaManagerPlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -58,6 +59,7 @@ class AdminPanelProvider extends PanelProvider
                 FilamentShieldPlugin::make(),
                 FilamentLaravelLogPlugin::make(),
                 ActivitylogPlugin::make(),
+                FilamentMediaManagerPlugin::make(),
             ])
             ->authMiddleware([
                 Authenticate::class,

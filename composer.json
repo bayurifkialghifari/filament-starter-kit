@@ -3,7 +3,10 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
@@ -14,7 +17,8 @@
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6",
         "rmsramos/activitylog": "^1.0",
-        "saade/filament-laravel-log": "^3.2"
+        "saade/filament-laravel-log": "^3.2",
+        "tomatophp/filament-media-manager": "^1.1"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.15",
