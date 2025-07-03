@@ -4,6 +4,7 @@ namespace App\Providers\Filament;
 
 use Filament\Http\Middleware\Authenticate;
 use BezhanSalleh\FilamentShield\FilamentShieldPlugin;
+use Croustibat\FilamentJobsMonitor\FilamentJobsMonitorPlugin;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
@@ -60,6 +61,7 @@ class AdminPanelProvider extends PanelProvider
                 FilamentLaravelLogPlugin::make(),
                 ActivitylogPlugin::make(),
                 FilamentMediaManagerPlugin::make(),
+                FilamentJobsMonitorPlugin::make(),
             ])
             ->authMiddleware([
                 Authenticate::class,

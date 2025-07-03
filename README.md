@@ -8,6 +8,7 @@ This Filament Starter Kit includes the following packages:
 -   📜 **[rmsramos/activitylog](https://github.com/rmsramos/activitylog):** Adds activity logging to track changes and user actions.
 -   📂 **[saade/filament-laravel-log](https://github.com/saade/filament-laravel-log):** User-friendly interface for viewing Laravel logs directly from Filament.
 -   🗂️ **[tomatophp/filament-media-manager](https://github.com/tomatophp/filament-media-manager):** Powerful media manager UI for handling files and folders.
+-   📊 **[croustibat/filament-jobs-monitor](https://github.com/croustibat/filament-jobs-monitor):** Monitor and manage Laravel queued jobs directly from the Filament admin panel.
 
 This starter kit helps you quickly build secure, feature-rich admin panels with advanced media and activity management. ✨
 
