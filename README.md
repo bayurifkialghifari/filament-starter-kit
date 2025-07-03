@@ -1,3 +1,7 @@
+# Library
+
+This project uses [Filament Shield](https://github.com/bezhanSalleh/filament-shield) for role and permission management, and [Filament Media Library](https://github.com/ralphjsmit/filament-media-library) for file and media uploads within the Filament admin panel.
+
 # SETUP
 
 1. **Clone the repository:**
