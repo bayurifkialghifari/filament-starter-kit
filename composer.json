@@ -19,6 +19,7 @@
         "livewire/livewire": "^3.6",
         "rmsramos/activitylog": "^1.0",
         "saade/filament-laravel-log": "^3.2",
+        "spatie/laravel-sluggable": "^3.7",
         "tomatophp/filament-media-manager": "^1.1"
     },
     "require-dev": {
