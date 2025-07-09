@@ -58,10 +58,14 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->plugins([
                 FilamentShieldPlugin::make(),
-                FilamentLaravelLogPlugin::make(),
-                ActivitylogPlugin::make(),
                 FilamentMediaManagerPlugin::make(),
                 FilamentJobsMonitorPlugin::make(),
+                FilamentLaravelLogPlugin::make()->authorize(
+                    fn () => auth()->user()->hasRole('super_admin'),
+                ),
+                ActivitylogPlugin::make()->authorize(
+                    fn () => auth()->user()->hasRole('super_admin'),
+                ),
             ])
             ->authMiddleware([
                 Authenticate::class,
